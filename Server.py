@@ -4,6 +4,7 @@ from socket import *
 #Localhost (Within System socket comm)
 #host = socket.gethostname()
 #192.168.64.1 - WLAN3-Connectify
+s = socket(AF_INET,SOCK_STREAM)
 host = "192.168.64.1"
 port = 9010
 s.bind((host,port))
